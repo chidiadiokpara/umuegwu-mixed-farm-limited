@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Umuegwu Mixed Farm Limited</title>
+    <link rel="stylesheet" href="farm.css">
+</head>
+
+<!-- Cart Popup -->
+<div id="cart-popup" class="cart-popup">
+    <h3>Shopping Cart</h3>
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Total: ₦0</p>
+    <button id="checkout-btn">Checkout</button>
+    <span id="close-cart">✖</span>
+</div>
+
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="image/logo 2.png" alt="Umuegwu Mixed Farm Logo">
+            <h2>UMUEGWU MIXED FARM LIMITED</h2>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#gallery">Our Pigs</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <h1>Welcome to Umuegwu Mixed Farm Limited</h1>
+        <p>Healthy Pigs For Sale At Affordable Prices</p>
+        <a href="#gallery" class="btn">View Our Pigs</a>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Our Farm Products</h2>
+        <p class="gallery-intro">
+            Browse our healthy farm animals and fresh farm produce available for sale.
+        </p>
+
+        <div class="gallery-container">
+
+            <!-- Item 1 -->
+            <div class="gallery-card">
+                <img src="image/IMG_1135.JPG" alt="Pig">
+                <h3>Healthy Pig</h3>
+                <p class="price">₦450,000</p>
+                <button class="add-to-cart">Add to Cart 🛒</button>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="gallery-card">
+                <img src="image/IMG_1136.JPG" alt="Goat">
+                <h3>Healthy pig</h3>
+                <p class="price">₦350,000</p>
+                <button class="add-to-cart">Add to Cart 🛒</button>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="gallery-card">
+                <img src="image/broiler chicken.jpg
+                " alt="Chicken">
+                <h3>Broiler Chicken</h3>
+                <p class="price">₦30,000</p>
+                <button class="add-to-cart">Add to Cart 🛒</button>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="gallery-card">
+                <img src="image/pig farm.jpg" alt="Eggs">
+                <h3>Healthy pig</h3>
+                <p class="price">₦500,000</p>
+                <button class="add-to-cart">Add to Cart 🛒</button>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="gallery-card">
+                <img src="image/pig item 1.jpg" alt="Pig">
+                <h3>Healthy Pig</h3>
+                <p class="price">₦450,000</p>
+                <button class="add-to-cart">Add to Cart 🛒</button>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="gallery-card">
+                <img src="image/goat 1.jpg" alt="Goat">
+                <h3>Healthy Goat</h3>
+                <p class="price">₦350,000</p>
+                <button class="add-to-cart">Add to Cart 🛒</button>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="gallery-card">
+                <img src="image/chicken 2.jpg" alt="Chicken">
+                <h3>Broiler Chicken</h3>
+                <p class="price">₦250,000</p>
+                <button class="add-to-cart">Add to Cart 🛒</button>
+            </div>
+
+            <!-- Item 8 -->
+            <div class="gallery-card">
+                <img src="image/pig item 8.jpg" alt="Eggs">
+                <h3>Healthy pig</h3>
+                <p class="price">₦500,000</p>
+                <button class="add-to-cart">Add to Cart 🛒</button>
+            </div>
+
+            <!-- Item 9 -->
+            <div class="gallery-card">
+                <img src="image/IMG_1135.JPG" alt="Pig">
+                <h3>Healthy Pig</h3>
+                <p class="price">₦450,000</p>
+                <button class="add-to-cart">Add to Cart 🛒</button>
+            </div>
+
+            <!-- Item 10 -->
+            <div class="gallery-card">
+                <img src="image/IMG_1136.JPG" alt="Goat">
+                <h3>Healthy Goat</h3>
+                <p class="price">₦350,000</p>
+                <button class="add-to-cart">Add to Cart 🛒</button>
+            </div>
+
+            <!-- Item 11 -->
+            <div class="gallery-card">
+                <img src="image/poultry farm.jpg" alt="Chicken">
+                <h3>Broiler Chicken</h3>
+                <p class="price">₦250,000</p>
+                <button class="add-to-cart">Add to Cart 🛒</button>
+            </div>
+
+            <!-- Item 12 -->
+            <div class="gallery-card">
+                <img src="image/crate of eggs.jpg" alt="Eggs">
+                <h3>Crate of Eggs</h3>
+                <p class="price">₦8,000</p>
+                <button class="add-to-cart">Add to Cart 🛒</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Shopping Cart Popup -->
+    <!-- <div id="cart-popup" class="cart-popup">
+        <h3>Your Cart</h3>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">Total: ₦0</p>
+        <button id="checkout-btn">Checkout</button>
+        <span id="close-cart" title="Close">✖️</span>
+    </div> -->
+
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <h1>About Us</h1>
+        <p>
+            Umuegwu Mixed Farm Limited is a trusted Nigerian agribusiness committed to producing healthy, high-quality livestock and farm products for homes, businesses, and markets across the country. We specialize in mixed farming, combining livestock rearing and
+            crop production using modern farming techniques and sustainable practices. Our farm is built on integrity, quality, and consistency. We rear pigs, poultry, goats, and other farm animals under hygienic conditions and provide fresh, affordable,
+            and nutritious products to our customers. We also engage in crop farming, supplying fresh fruits and vegetables directly from our farm to the market. At Umuegwu Mixed Farm Limited, we believe agriculture is the backbone of the nation. That
+            is why we focus on improving food security, creating jobs, and supporting local communities through responsible farming. We are driven by a passion for excellence and a commitment to feeding Nigeria with pride.
+        </p>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <p class="services-intro">
+            At Umuegwu Mixed Farm Limited, we provide quality farm products and professional agricultural services across Nigeria.
+        </p>
+
+        <div class="services-container">
+
+            <div class="service-card">
+                <img src="image/pig farm.jpg" alt="Pig Farming">
+                <h3>Pig Farming</h3>
+                <p>We breed and sell healthy pigs at affordable prices for commercial and domestic farming.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="image/goat 1.jpg" alt="Goat Farming">
+                <h3>Goat Farming</h3>
+                <p>We raise strong and healthy goats suitable for meat and breeding purposes.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="image/poultry farm.jpg" alt="Poultry Farming">
+                <h3>Poultry Farming</h3>
+                <p>We sell broilers, layers, chicks, and fresh eggs from our modern poultry farm.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="image/vegetables farm.jpg" alt="Vegetable Farming">
+                <h3>Vegetable Farming</h3>
+                <p>We grow fresh vegetables and fruits using natural and healthy farming methods.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="image/farm consultation.jpg" alt="Farm Consultation">
+                <h3>Farm Consultation</h3>
+                <p>We offer farm setup guidance, animal care training, and agricultural consultation.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Our Supply Chain Section -->
+    <!-- <section id="supply-chain" class="supply-chain">
+        <h2>Our Supply Chain</h2>
+        <p class="supply-intro">
+            At Umuegwu Mixed Farm Limited, we operate a reliable and transparent supply chain that ensures fresh, healthy, and high-quality farm products reach our customers on time.
+        </p>
+
+        <div class="supply-container">
+
+            <div class="supply-step">
+                <span class="step-number">1</span>
+                <h3>Breeding & Farming</h3>
+                <p>
+                    We raise pigs, goats, poultry, and crops using modern and hygienic farming methods.
+                </p>
+            </div>
+
+            <div class="supply-step">
+                <span class="step-number">2</span>
+                <h3>Feeding & Health Care</h3>
+                <p>
+                    Our animals are fed with quality feed and monitored by veterinary professionals.
+                </p>
+            </div>
+
+            <div class="supply-step">
+                <span class="step-number">3</span>
+                <h3>Processing & Packaging</h3>
+                <p>
+                    We handle processing under clean and safe conditions to maintain freshness and quality.
+                </p>
+            </div>
+
+            <div class="supply-step">
+                <span class="step-number">4</span>
+                <h3>Storage & Preservation</h3>
+                <p>
+                    Products are stored under proper conditions to prevent spoilage and contamination.
+                </p>
+            </div>
+
+            <div class="supply-step">
+                <span class="step-number">5</span>
+                <h3>Transportation & Delivery</h3>
+                <p>
+                    We deliver directly to homes, markets, restaurants, and businesses across Nigeria.
+                </p>
+            </div>
+
+        </div>
+    </section> -->
+    <!-- Enhanced Supply Chain Section -->
+    <section id="supply-chain" class="supply-chain">
+        <h2>Our Supply Chain</h2>
+        <p class="supply-intro">
+            From farm to your table, Umuegwu Mixed Farm Limited follows a trusted and transparent supply chain that guarantees freshness, quality, and timely delivery.
+        </p>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-icon">🐖</div>
+                <div class="timeline-content">
+                    <h3>Breeding & Farming</h3>
+                    <p>We raise pigs, goats, poultry, and crops using modern and hygienic farming practices.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">🌽</div>
+                <div class="timeline-content">
+                    <h3>Feeding & Animal Care</h3>
+                    <p>Our animals receive nutritious feed and regular veterinary health checks.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">🏭</div>
+                <div class="timeline-content">
+                    <h3>Processing & Packaging</h3>
+                    <p>Products are handled under clean, safe, and certified processing conditions.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">❄️</div>
+                <div class="timeline-content">
+                    <h3>Storage & Preservation</h3>
+                    <p>We store products under proper temperature and hygiene standards.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">🚚</div>
+                <div class="timeline-content">
+                    <h3>Transportation & Delivery</h3>
+                    <p>We deliver directly to homes, markets, hotels, and restaurants across Nigeria.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <h1>Contact Us</h1>
+        <p><strong>Whatsapp:</strong> 08147443569</p>
+        <p><strong>SMS:</strong> 08038424100</p>
+        <p><strong>Call:</strong> 08034742411</p>
+        <p><strong>Phone:</strong> 07080638803</p>
+        <p><strong>Location:</strong> Nigeria</p>
+
+        <a href="tel:08147443569" class="btn">Call Now</a>
+        <a href="https://wa.me/2348147443569" class="btn whatsapp">Chat on WhatsApp</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Umuegwu Mixed Farm Limited. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Umuegwu mixed Farm Ltd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="farm.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+        }
+        
+        header {
+            background: #2e7d32;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav {
+            background: #1b5e20;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            margin: 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        section {
+            padding: 30px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        
+        h2 {
+            color: #2e7d32;
+        }
+        
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        .contact-form button {
+            margin-top: 15px;
+            padding: 12px;
+            width: 100%;
+            background: #2e7d32;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        footer {
+            background: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    
+    <section class="logo-section">
+        <div class="logo-box">
+            <img src="image/logo 2.png" alt="Umuegwu Mixed Farm Limited Logo" id="farmLogo">
+            <h1>Umuegwu Mixed Farm Limited</h1>
+            <p>Quality Livestock & Farm Produce</p>
+        </div>
+    </section> -->
+
+<!-- <header>
+        <section class="logo-section">
+            <div class="logo-box">
+                <img src="image/logo 2.png" alt="Umuegwu MIxed Farm Limited logo" id="farmLogo">
+
+            </div>
+        </section>
+        <h1>UMUEGWU MIXED FARM LIMITED</h1>
+        <p>POULTRY & PIG FARMING | QUALITY MEAT & EGGS</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to umuegwu mixed Farm ltd</h2>
+        <p>
+            We are a modern poultry and pig farm providing healthy livestock, fresh eggs, and quality pork meat using best farming practices. We operate with modern farming techniques and strict hygiene standards to ensure the best products for our customers.
+        </p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Umuegwu mixed Farms is a trusted agricultural business focused on poultry and pig production. Our farm specializes in the rearing of healthy pigs for both meat production and breeding, broiler chickens, layer birds. We serve households, restaurants, hotels,
+            and commercial buyers with consistent supply and competitive pricing.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+
+            <div class="card">
+                <img src="image/poultry farm.jpg" alt="Poultry Farm">
+                <h3>Poultry Farming</h3>
+                <p>Broilers, layers, fresh eggs, and live chickens.</p>
+            </div>
+
+            <div class="card">
+                <img src="image/pig farming.jpg" alt="Pig Farm">
+                <h3>Pig Farming</h3>
+                <p>Healthy pigs for meat production and breeding.</p>
+            </div>
+
+            <div class="card">
+                <img src="image/livestock.jpg" alt="Farm">
+                <h3>Livestock Supply</h3>
+                <p>Wholesale and retail supply of poultry and pigs.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Farm Gallery</h2>
+        <div class="gallery">
+            <img src="image/IMG_1135.JPG">
+            <img src="image/IMG_1136.JPG">
+            <img src="image/IMG_1138.JPG">
+            <img src="image/IMG_1137.JPG">
+            <img src="image/IMG_1135.JPG">
+            <img src="image/IMG_1138.JPG">
+            <img src="image/IMG_1137.JPG">
+            <img src="image/piggry.jpg">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <div class="contact-form">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+            <button onclick="sendMessage()">Send Message</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Umuegwu mixed Farm ltd. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        // Auto year update
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        // Contact form validation
+        function sendMessage() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let message = document.getElementById("message").value;
+
+            if (name === "" || email === "" || message === "") {
+                alert("Please fill in all fields!");
+            } else {
+                alert("Thank you " + name + "! Your message has been sent successfully.");
+                document.getElementById("name").value = "";
+                document.getElementById("email").value = "";
+                document.getElementById("message").value = "";
+            }
+        }
+    </script>
+
+</body>
+
+</html> -->
